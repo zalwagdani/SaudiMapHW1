@@ -1,0 +1,115 @@
+/*Bar*/
+*{
+    padding: 0;
+    margin: 0;
+    color:rgb(128, 128, 128);
+}
+.container{
+    padding: 0.000003% 1%;
+}
+body{
+    font-size: 0.99rem;
+    
+    background-color:rgb(189, 184, 184);
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+#main-menu{
+    width: 55%;
+    text-align: center ;
+   
+    
+}
+ul{
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+.nav-items{
+    display: inline-block;
+    margin: 6% ;
+}
+#sign{
+    margin: 3%;
+    text-align: right;
+    padding-left: 12rem;
+}
+a{
+    text-decoration: none;
+}
+.header-left{
+    margin: auto;
+    padding: 0 5%;
+    line-height: 2;
+}
+.fixedDisplay{
+    display: flex;
+}
+.paddingstart{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.container1{
+    padding: 2% 5%;}
+footer{
+
+    background-color: white;
+   height: 110px;
+   margin-top: 6.5%;
+   
+}
+.footer-items{
+    padding-left: 25%;
+    
+}
+#final-text{
+    margin-top: -6%;
+}
+.footer-list{
+    margin: -1%;
+    width: 55%;
+    text-align: center ;
+}
+a:hover{
+    
+    color: black;
+
+}
+
+/*Box*/
+.SignInBox{
+    display: block;
+    width: 100%;
+    background-color: rgb(189, 184, 184);
+    padding-top: 10rem;
+}
+input{
+    
+    width: 25%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  margin-top: 1%;
+  margin-left: 35%;
+  box-sizing: border-box;
+    
+   
+}
+button{
+    width: 20%;
+    padding: 9px 10px;
+    margin: 10px 0;
+    margin-left: 38%;
+    box-sizing: border-box;
+    
+}
+label{
+    
+    width: 50%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    margin-left: 46%;
+}
